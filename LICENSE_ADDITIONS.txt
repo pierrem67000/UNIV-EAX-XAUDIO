@@ -1,0 +1,17 @@
+HISTORICAL XAudio2 1.x ADDITIONS — see THIRD_PARTY.md and LICENSE_INTEGRATION.txt for the combined 2.0 distribution.
+
+The original dsound_xa2.cpp, eax_shim.cpp, eax_defs.h and eax_presets.inc were supplied by the user. Their original rights and attribution remain unchanged.
+
+The new implementation and changes authored for this delivery, including fx_dsp.h, fx_xapo.h spatial_state.h, and the tests, are provided under the MIT License:
+
+Copyright (c) 2026
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+EAX ABI names, GUIDs, layouts, property IDs, ranges and defaults in fx_specs.h describe the Creative EAX4 interface. Reference: the public EAX4 SDK header distributed with id Software's Doom 3 source. EAX, Creative and XAudio2 are names of their respective owners. No Creative DLL or Microsoft runtime is included in this package.
+
+The numeric EAX1 preset values in eax1_presets.inc are SDK parameter data, cross-checked against OpenAL Soft al/eax/presets.hpp. This sentence applied to the historical XAudio2 engine only. Version 2.0 additionally embeds OpenAL Soft under its own LGPL terms.

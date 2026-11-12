@@ -1,0 +1,24 @@
+EAX Unified Wrapper 3.0 integration additions, Copyright (c) 2026.
+
+The integration code (core_front.cpp, core_loader.*, core_identity.h,
+pe_identity.h, legacy_engine.cpp, relay generator and generated OpenAL relay,
+eax5_bridge.*, build changes and new integration tests) is licensed under the GNU Lesser
+General Public License, version 2.1 or, at your option, any later version.
+It is distributed WITHOUT ANY WARRANTY; without even the implied warranty
+of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+See vendor/dsoal/LICENSE for the full LGPL-2.1 text.
+
+OpenAL Soft is LGPL-2.0-or-later; DSOAL is LGPL-2.1-or-later. The combined
+main DLL incorporates both and is distributed with the complete corresponding
+modified source and build instructions. Copyright and license notices in each
+upstream source and bundled component remain applicable. Original user-supplied
+source rights and historical MIT additions retain their existing provenance;
+see LICENSE_ADDITIONS.txt. The combined DLL is not an MIT-only library.
+
+You may modify, rebuild and replace the library. No technical restriction is
+imposed on debugging modifications or reverse engineering for that purpose.
+The game executable and proprietary Creative/Microsoft DLLs are not included.
+
+Eaxefx source reused in 2.1 is MIT-licensed, Copyright (c) 2020-2021 Boris I. Bendovsky and Contributors. See vendor/eaxefx/LICENSE.md and preserved headers.
+
+Version 3.0 integration code (XAudio2 backend, WinMM compatibility, configuration, relays, API dispatcher, diagnostics and portable tests) is LGPL-2.1-or-later under the same terms.
