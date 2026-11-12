@@ -51,3 +51,5 @@ The appropriate stub DLL and its corresponding INI configuration file must be pl
 The EAX or DirectSound configuration depends on the audio API used by the game.
 
 Note: The exact DLL names and configuration files may vary depending on the compatibility layer being used and the game's requirements.
+
+If any licensing adjustments, additional attributions or compliance changes are required regarding reused code or third-party components, I am willing to make the necessary modifications to ensure proper license compliance.
